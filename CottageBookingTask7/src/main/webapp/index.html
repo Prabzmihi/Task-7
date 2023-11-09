@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    
+    <script src="myAJAXlib.js"></script>
+    <script src="myJS.js"></script>
+    
+    <title>Aurora Cottage Booking</title>
+    
+    <style>
+        body {
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        #sBut {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Aurora Cottage Booking</h1>
+
+        <label for="tf01"><b>Booker Name:</b></label>
+        <input type="text" name="rClass" id="tf01" class="form-control" value="Peter">
+
+        <label for="tf02"><b>Number of People:</b></label>
+        <input type="text" name="rClass" id="tf02" class="form-control" value="4">
+
+        <label for="tf03"><b>Required number of Bedrooms:</b></label>
+        <input type="text" name="rClass" id="tf03" class="form-control" value="3">
+
+        <label for="tf04"><b>Distance from Lake (m):</b></label>
+        <input type="text" name="rClass" id="tf04" class="form-control" value="100">
+
+        <label for="tf05"><b>City:</b></label>
+        <input type="text" name="rClass" id="tf05" class="form-control" value="Jyvaskyla">
+
+        <label for="tf06"><b>Distance from City (km):</b></label>
+        <input type="text" name="rClass" id="tf06" class="form-control" value="30">
+
+        <label for="tf07"><b>Required Number of Days:</b></label>
+        <input type="text" name="rClass" id="tf07" class="form-control" value="5">
+
+        <label for="tf08"><b>From Date:</b></label>
+        <input type="text" name="rClass" id="tf08" class="form-control" value="2023-12-20">
+
+        <label for="tf09"><b>Possible shift days:</b></label>
+        <input type="text" name="rClass" id="tf09" class="form-control" value="0">
+
+        <button class="btn btn-primary mt-3" id="sBut" onclick="doQuery()">Search</button>
+
+        <div class="mt-3" id="results"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+@prefix cot: <http://example.org#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+cot:cottage01 
+    rdf:type cot:cottage ;
+    cot:cottageID "C001"; 
+    cot:hasImageURL <https://featuringfinland.com/wp-content/uploads/2021/05/Finland_summer_cottage_sauna_1.jpg> .
+	cot:hasCottageName "Lakeside Retreat";
+	cot:hasAddress "No.28, Taitoniekantie, Jyvaskyla" ;
+	cot:hasPlaces 4 ;
+	cot:hasBedrooms 3 ;
+    cot:hasDistanceFromLake 30; #m
+    cot:locatedCity "Jyvaskyla" ;
+    cot:hasDistanceFromCity 300 ; #km
+    cot:availableStartDate 2023-07-01 ;
+    cot:availableEndDate 2023-09-01 .
+
+ex:Cottage2 
+    rdf:type cot:cottage ;
+    cot:cottageID "C002"; 
+    cot:hasImageURL <https://finland.fi/wp-content/uploads/2015/05/4106-carolina_maia_550px_2-jpg.jpg> .
+	cot:hasCottageName "Arctic Haven";
+	cot:hasAddress "No.105, Nuortenkatu, Rovaniemi" ;
+	cot:hasPlaces 8 ;
+	cot:hasBedrooms 5 ;
+    cot:hasDistanceFromLake 20; #m
+    cot:locatedCity "Rovaniemi" ;
+    cot:hasDistanceFromCity 200 ; #km
+    cot:availableStartDate 2023-07-15 ;
+    cot:availableEndDate 2023-09-01 .
+
+ex:Cottage3 
+    rdf:type cot:cottage ;
+    cot:cottageID "C003"; 
+    cot:hasImageURL <https://www.suomi-holiday.fi/images/background_amp_lakeland_en.jpg> .
+	cot:hasCottageName "Northern Lights";
+	cot:hasAddress "No.32, Isokatu, Oulu" ;
+	cot:hasPlaces 6 ;
+	cot:hasBedrooms 3 ;
+    cot:hasDistanceFromLake 30; #m
+    cot:locatedCity "Oulu" ;
+    cot:hasDistanceFromCity 300 ; #km
+    cot:availableStartDate 2023-08-01 ;
+    cot:availableEndDate 2023-09-30 .
+
+ex:Cottage4 
+    rdf:type cot:cottage ;
+    cot:cottageID "C004"; 
+    cot:hasImageURL <https://www.shutterstock.com/image-photo/finnish-wooden-house-among-trees-260nw-1627339324.jpg> .
+	cot:hasCottageName "Forest Hideaway";
+	cot:hasAddress "No.56, Nekalantie, Tampere" ;
+	cot:hasPlaces 9 ;
+	cot:hasBedrooms 5 ;
+    cot:hasDistanceFromLake 30; #m
+    cot:locatedCity "Tampere" ;
+    cot:hasDistanceFromCity 300 ; #km
+    cot:availableStartDate 2023-08-15 ;
+    cot:availableEndDate 2023-09-15 .
+
+ex:Cottage5 
+    rdf:type cot:cottage ;
+    cot:cottageID "C005"; 
+    cot:hasImageURL <https://visithame.fi/wp-content/uploads/2019/12/visit_hame_mokki_sauna_jarvenranta_jarvi_punainentupa_tupa_kesamokki_vuokraamokki.jpg> .
+	cot:hasCottageName "Seaside Serenity";
+	cot:hasAddress "No.67, Ratapihankatu, Turku" ;
+	cot:hasPlaces 9 ;
+	cot:hasBedrooms 5 ;
+    cot:hasDistanceFromLake 20; #m
+    cot:locatedCity "Turku" ;
+    cot:hasDistanceFromCity 200 ; #km
+    cot:availableStartDate 2023-08-01 ;
+    cot:availableEndDate 2023-09-15 .
